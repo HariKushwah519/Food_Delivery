@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 4%;
+    background-color: darkslategrey;
 }
 .navbar .logo{
     width: max(10%,80px);
@@ -11,5 +12,7 @@
     width: 40px;
 }
 .login-conditon{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }

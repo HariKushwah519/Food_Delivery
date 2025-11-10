@@ -7,7 +7,6 @@ const StoreContextProvider = (props) => {
   const [token, setToken] = useState("");
   const [admin, setAdmin] = useState(false);
 
-
   useEffect(() => {
     async function loadData() {
       if (localStorage.getItem("token")) {
